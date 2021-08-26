@@ -3,7 +3,6 @@ const btnButton = document.querySelector(".btn");
 const inputButton = document.querySelector(".input");
 
 btnButton.addEventListener("click", () => {
-  search.classList.toggle("ative");
-  console.log("reea");
+  search.classList.toggle("active");
   inputButton.focus();
 });
